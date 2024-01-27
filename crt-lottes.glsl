@@ -21,12 +21,18 @@
 //!HEIGHT OUTPUT.h
 //!DESC CRT Lottes
 
+//!PARAM SHADOW_MASK
+//!DESC The kind of shadow mask to use
+//!TYPE DEFINE
+//!MINIMUM 0
+//!MAXIMUM 4
+2
+
 // Parameters
 #define HARD_SCAN -8.0
 #define CURVATURE vec2(0.031, 0.041)
 #define MASK_DARK 0.5
 #define MASK_LIGHT 1.5
-#define SHADOW_MASK 2
 #define BRIGHTNESS_BOOST 1.0
 #define HARD_BLOOM_SCAN -2.0
 #define BLOOM_AMOUNT (1.0/16.0)
